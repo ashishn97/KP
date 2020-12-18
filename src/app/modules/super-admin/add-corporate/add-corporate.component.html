@@ -1,0 +1,252 @@
+<div class="right-content">
+  <!--  ABOUT  -->
+  <div class="about main-blockmobile">
+    <div class="left-content bglevel1 col-lg-6">
+      <div class="scroller">
+        <article class="left-content-text">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+              <h2 class="darkcolorhead">Add Corporate</h2>
+              <div class="form col-lg-12 col-md-12 col-sm-12">
+                <form class="row pdtop-30" action="" method="post">
+                  <div class="clearfix">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                      <input
+                        name=""
+                        class=""
+                        placeholder="Corporate Name"
+                        type="text"
+                        required
+                        name="name"
+                        [(ngModel)]="corporateDTO.name"
+                      />
+                    </div>
+                  </div>
+                  <div class="clearfix">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                      <input
+                        name=""
+                        class=""
+                        placeholder="Website URL"
+                        type="text"
+                        required
+                        name="url"
+                        [(ngModel)]="corporateDTO.url"
+                      />
+                    </div>
+                  </div>
+                  <div class="clearfix">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                      <textarea
+                        name=""
+                        class=""
+                        placeholder="Brief Description"
+                        type="text"
+                        name="description"
+                        [(ngModel)]="corporateDTO.description"
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div class="clearfix">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                      <input
+                        name=""
+                        class=""
+                        placeholder="No of Employees"
+                        type="text"
+                        required
+                        name="noOfEmployees"
+                        [(ngModel)]="corporateDTO.noOfEmployees"
+                      />
+                    </div>
+                  </div>
+                  <div class="clearfix">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                      <input
+                        name=""
+                        class=""
+                        placeholder="Upload Logo"
+                        type="text"
+                        required
+                        name="logo"
+                        [(ngModel)]="corporateDTO.logo"
+                      />
+                    </div>
+                  </div>
+                  <div class="clearfix">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                      <h5 class="darkcolorhead">Contact Details</h5>
+                    </div>
+                  </div>
+                  <div class="clearfix">
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                      <input
+                        name=""
+                        class=""
+                        placeholder="First Name"
+                        type="text"
+                        required
+                        name="firstName"
+                        [(ngModel)]="corporateDTO.contactDetails.firstName"
+                      />
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                      <input
+                        name=""
+                        class=""
+                        placeholder="Last Name"
+                        type="text"
+                        required
+                        name="lastName"
+                        [(ngModel)]="corporateDTO.contactDetails.lastName"
+                      />
+                    </div>
+                  </div>
+                  <div class="clearfix">
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                      <input
+                        name=""
+                        class=""
+                        placeholder="Contact Number"
+                        type="text"
+                        required
+                        name="contactNumber"
+                        [(ngModel)]="corporateDTO.contactDetails.contactNumber"
+                      />
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                      <input
+                        name=""
+                        class=""
+                        placeholder="Email Id"
+                        type="text"
+                        required
+                        name="email"
+                        [(ngModel)]="corporateDTO.contactDetails.email"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="clearfix">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                      <h5 class="darkcolorhead">Admin Account</h5>
+                    </div>
+                  </div>
+                  <div class="clearfix">
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                      <input
+                        name=""
+                        class=""
+                        placeholder="First Name"
+                        type="text"
+                        required
+                        name="adminFirstName"
+                        [(ngModel)]="corporateDTO.adminDetails.firstName"
+                      />
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                      <input
+                        name=""
+                        class=""
+                        placeholder="Last Name"
+                        type="text"
+                        required
+                        name="adminLastName"
+                        [(ngModel)]="corporateDTO.adminDetails.lastName"
+                      />
+                    </div>
+                  </div>
+                  <div class="clearfix">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                      <input
+                        name=""
+                        class=""
+                        placeholder="Email Id"
+                        type="text"
+                        required
+                        name="adminEmail"
+                        [(ngModel)]="corporateDTO.adminDetails.email"
+                      />
+                    </div>
+                  </div>
+                  <div class="clearfix"></div>
+                  <div class="col-lg-12 col-md-12 col-sm-12">
+                    <input
+                      value="Add"
+                      class=""
+                      type="submit"
+                      name="submit"
+                      (click)="addCorporate()"
+                    />
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="scroller__track">
+        <div class="scroller__bar"></div>
+      </div>
+    </div>
+    <!--  RIGHT IMAGES  -->
+    <div class="right-images bglevel2 col-lg-6">
+      <div class="scroller scroll1">
+        <div class="col-lg-12 pd-30">
+          <h2 class="darkcolorhead">Existing Corporates</h2>
+        </div>
+        <div class="col-lg-12 pd-30">
+          <div class="col-lg-8">
+            <input
+              name=""
+              class=""
+              placeholder="Search Corporate"
+              type="text"
+              name="search"
+              [(ngModel)]="corporateFilter.searchTerm"
+              (ngModelChange)="this.modelChanged.next($event)"
+            />
+          </div>
+
+          <!--Show the Import Excel who has rights bydefault it will be hide-->
+          <!--<div class="col-lg-4"><span class=" tableheading pull-right">Import excel</span></div>-->
+
+          <table width="100%" align="center" class="text-center">
+            <tr>
+              <th class="tableheading">Corporate Name</th>
+
+              <th class="tableheading">
+                <input
+                  type="checkbox"
+                  [(ngModel)]="isChecked"
+                  (change)="checkValue(isChecked)"
+                />
+                Enable
+              </th>
+              <th class="tableheading">Action</th>
+            </tr>
+            <tr *ngFor="let corporate of corporates">
+              <td class="tablecolomn">{{ corporate.name }}</td>
+              <td class="tablecolomn">
+                <input
+                  type="checkbox"
+                  checked="{{ corporate.enabled ? 'checked' : '' }}"
+                />
+              </td>
+              <td class="tablecolomn">
+                <span (click)="editCorporate(corporate.id)">Edit</span>
+                |
+                <span (click)="deleteCorporate(corporate.id)">Delete</span>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="scroller__track">
+        <div class="scroller__bar"></div>
+      </div>
+    </div>
+    <!--  //RIGHT IMAGES  -->
+  </div>
+  <!--  //ABOUT  -->
+</div>

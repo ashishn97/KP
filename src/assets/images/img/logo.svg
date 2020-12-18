@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="130" height="130" viewBox="0 0 130 130">
+    <defs>
+        <filter id="h0mtxlfzpa" width="124.6%" height="124.6%" x="-12.3%" y="-12.3%" filterUnits="objectBoundingBox">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.4 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <path id="zcvuzupmib" d="M0.001 0.158L102.397 0.158 102.397 102.473 0.001 102.473z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g filter="url(#h0mtxlfzpa)" transform="translate(-81 -32) translate(81 32)">
+                <g>
+                    <circle cx="65" cy="65" r="65" fill="#264653"/>
+                    <g transform="translate(14.444 15.889)">
+                        <mask id="65wew2bpjc" fill="#fff">
+                            <use xlink:href="#zcvuzupmib"/>
+                        </mask>
+                        <path fill="#264653" d="M0 51.315C0 23.062 22.924.158 51.2.158c28.277 0 51.198 22.904 51.198 51.157 0 28.254-22.92 51.158-51.198 51.158C22.923 102.473 0 79.569 0 51.315" mask="url(#65wew2bpjc)"/>
+                    </g>
+                    <path fill="#FACD59" d="M48.299 52.627c-2.784 2.776-2.767 7.335.038 10.132l33.31 33.357c2.807 2.794 7.38 2.81 10.165.036 2.784-2.776 2.767-7.336-.038-10.132l-33.31-33.357c-2.806-2.795-7.38-2.813-10.165-.036"/>
+                    <path fill="#AADDCA" d="M49.712 77.394c-2.727-2.733-2.727-7.205 0-9.94l24.997-24.96c2.726-2.733 7.186-2.733 9.913 0 2.726 2.734 2.726 7.208 0 9.941L59.625 77.394c-2.727 2.734-7.187 2.734-9.913 0"/>
+                    <path fill="#FF6E5D" d="M54.34 65h-1.794c-3.48 0-6.324-2.833-6.324-6.293V38.069c0-3.46 2.845-6.291 6.324-6.291h1.795c3.48 0 6.326 2.831 6.326 6.291v20.638c0 3.46-2.847 6.293-6.326 6.293"/>
+                    <path fill="#FF6E5D" d="M54.34 98.222h-1.792c-3.48 0-6.326-2.831-6.326-6.291V71.293c0-3.46 2.847-6.293 6.326-6.293h1.793c3.48 0 6.326 2.833 6.326 6.293v20.638c0 3.46-2.847 6.291-6.326 6.291"/>
+                    <path fill="#FFF" d="M60.702 55.169l-.16-.167-2.141-2.26c-2.778-2.916-7.322-2.916-10.098 0-1.198 1.258-1.877 2.86-2.041 4.508-.053.528-.053 1.06 0 1.586.164 1.649.843 3.252 2.04 4.51l2.285 2.408-2.243 2.345c-1.387 1.46-2.082 3.38-2.082 5.301 0 1.922.695 3.843 2.082 5.302 2.776 2.916 7.323 2.916 10.1 0l2.099-2.199.121-.123 10.114-10.587L60.702 55.17z"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

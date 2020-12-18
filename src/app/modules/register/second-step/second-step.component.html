@@ -1,0 +1,92 @@
+<div class="">
+  <!--  ABOUT  -->
+  <div class="about main-block bgstep1">
+    <div class="left-content col-lg-12">
+      <div class="scroller">
+        <article class="left-content-text article">
+          <a class="" href="#">
+            <img src=".../../../../assets/images/img/logo.svg" class="logo2" />
+          </a>
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+              <div class="form col-lg-12 col-md-12 col-sm-12 desktopstep1">
+                <h2 class="whitecolorheadsteps">Step 2.</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row desktop mobilestep2">
+            <form class="row">
+              <div class="clearfix">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                  <input
+                    name=""
+                    class="desktoptext"
+                    placeholder="Your first name..."
+                    type="text"
+                    required
+                    name="firstName"
+                    [(ngModel)]="registerObj.firstName"
+                  />
+                </div>
+              </div>
+              <div class="clearfix">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                  <input
+                    name=""
+                    class="desktoptext"
+                    placeholder="Your surname..."
+                    type="text"
+                    required
+                    name="lastName"
+                    [(ngModel)]="registerObj.lastName"
+                  />
+                </div>
+              </div>
+              <div class="clearfix">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                  <input
+                    name=""
+                    class="desktoptext"
+                    placeholder="Password (8-10 characters)..."
+                    type="text"
+                    required
+                    name="password"
+                    [(ngModel)]="registerObj.password"
+                  />
+                </div>
+              </div>
+              <div class="clearfix">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                  <input
+                    name=""
+                    class="desktoptext"
+                    placeholder="Confirm your password..."
+                    type="text"
+                    required
+                    name="confirmPassword"
+                    [(ngModel)]="registerObj.confirmPassword"
+                  />
+                </div>
+              </div>
+              <div class="clearfix">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                  <input
+                    value="Continue..."
+                    class="desktopbutton"
+                    type="submit"
+                    name="submit"
+                    (click)="proceed()"
+                  />
+                </div>
+              </div>
+            </form>
+          </div>
+        </article>
+      </div>
+      <div class="scroller__track">
+        <div class="scroller__bar"></div>
+      </div>
+    </div>
+  </div>
+  <!--  //ABOUT  -->
+</div>

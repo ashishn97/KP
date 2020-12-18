@@ -1,0 +1,57 @@
+@import 'xtreme/variables';
+@import 'xtreme/mixins';
+
+// Core CSS
+@import 'xtreme/misc';
+@import 'xtreme/sidebar-and-main-panel';
+@import 'xtreme/buttons';
+@import 'xtreme/inputs';
+
+@import 'xtreme/alerts';
+@import 'xtreme/tables';
+
+@import 'xtreme/checkbox-radio-switch';
+@import 'xtreme/navbars';
+@import 'xtreme/footers';
+@import 'xtreme/panels';
+
+// Fancy Stuff
+@import 'xtreme/dropdown';
+@import 'xtreme/cards';
+@import 'xtreme/responsive';
+
+.k-dateinput-wrap > .k-input {
+    height: 37px !important;
+    outline: none !important;
+}
+
+.k-dateinput-wrap > .k-input:focus {
+    background-color: $white-bg;
+    border: 1px solid $input-focus-clr;
+    box-shadow: 0 0 5px $input-focus-clr;
+    outline: 0 !important;
+    color: #333333;
+}
+
+.help-block {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.k-searchbar > .k-input {
+    height: 37px !important;
+    outline: none !important;
+}
+
+.k-searchbar > .k-input:focus {
+    background-color: $white-bg;
+    border: 1px solid $input-focus-clr;
+    box-shadow: 0 0 5px $input-focus-clr;
+    outline: 0 !important;
+    color: #333333;
+}
+
+.required:after {
+    content: ' *';
+    color: red;
+}

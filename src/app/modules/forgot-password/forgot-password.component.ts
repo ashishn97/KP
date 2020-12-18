@@ -32,7 +32,9 @@ export class ForgotPasswordComponent implements OnInit {
     if (!this.validate(this.email)) {
       return;
     }
-    const result = await this.loginService.resetPassword({ email: this.email });
+    const result = await this.loginService.sendResetPasswordEmail({
+      email: this.email,
+    });
     if (result.statusCode == 200) {
       this.notificationService.success('Success', result.result);
     } else {

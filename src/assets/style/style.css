@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Quicksand';
-  src:url('../fonts/Quicksand-Regular.ttf');
+  src:url('../fonts/Quicksand-Regular.ttf?-fvbane');
   font-weight: normal;
   font-style: normal;
 }
@@ -33,6 +33,31 @@ h1, h2, h3, h4, h5, h6{
 }
 strong{
 	font-weight: 900;
+}
+textarea{
+     border: 0px solid #efefef;
+    border-radius: 4px;
+    font: 500 16px Quicksand;
+    font-weight: 800;
+    color: #264653;
+   
+    margin-bottom: 10px;
+   
+    vertical-align: middle;
+    width: 100%;
+    background-color: #efefef;
+	}
+select {
+	border: 0px solid #efefef;
+	border-radius: 4px;
+	font: 500 16px Quicksand;
+	font-weight: 800;
+	color: #264653;
+	margin-bottom: 10px;
+	vertical-align: middle;
+	width: 100%;
+	background-color: #efefef;
+	height: 50px;
 }
 .scroll1{
 	margin: auto;
@@ -314,8 +339,8 @@ strong{
 		position: relative;
 		z-index: 1;
 		background: #264653;
-		padding-left: 30px;
-		border-bottom: 1px solid #212121;
+		padding-left: 40px;
+		/*border-bottom: 1px solid #212121;*/
 
 	    -moz-transition: all 0.3s linear;
 		-webkit-transition: all 0.3s linear;
@@ -546,7 +571,7 @@ strong{
 		right: 0;
 		top: 0;
 		bottom: 0;
-		/* background: url(../images/video_grig.png); */
+		background: url(../images/video_grig.png);
 		z-index: 1;
 	}
 	#controlBar_bgndVideo{
@@ -1312,7 +1337,7 @@ strong{
 }
 	.contact .scroller{
 		display: inline-block;
-		width: 100%;;
+		width: 100%;
 	}
 	input[type="text"],input[type="password"] {
 		border: 0px solid #efefef;
@@ -1391,7 +1416,7 @@ strong{
 	textarea {
 	    border: 0px solid #ccc;
 		font: 900 12px Quicksand;
-		text-transform: uppercase;
+		
 	    height: 140px;
 	    margin-bottom: 10px;
 	    padding: 10px 15px;
@@ -1525,7 +1550,7 @@ strong{
 }
 	.team .scroller{
 		display: inline-block;
-		width: 100%;;
+		width: 100%;
 	}
 	.team .left-content-text{
 		padding-top: 40px;
@@ -1598,7 +1623,7 @@ strong{
 }
 	.blog .scroller{
 		display: inline-block;
-		width: 100%;;
+		width: 100%;
 	}
 	.blog .left-content-text{
 		padding-top: 30px;
@@ -1720,7 +1745,7 @@ strong{
 }
 	.blog-single .scroller{
 		display: inline-block;
-		width: 100%;;
+		width: 100%;
 	}	
 .blog-title{
 	position: relative;
@@ -1761,7 +1786,7 @@ strong{
 }
 	.blog-comments .scroller{
 		display: inline-block;
-		width: 100%;;
+		width: 100%;
 	}	
 	.blog-comments .left-content-text{
 		padding-top: 40px;

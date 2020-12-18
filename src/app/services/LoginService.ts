@@ -33,4 +33,8 @@ export class LoginService extends AbstractHttpService<any> {
   public async resetPassword(email) {
     return await this.post(email, `${this.url}/resetPassword`);
   }
+
+  public async sendResetPasswordEmail(email) {
+    return await this.post(email, `${this.url}/resetPassword`);
+  }
 }

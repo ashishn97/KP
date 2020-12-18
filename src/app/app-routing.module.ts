@@ -6,10 +6,18 @@ import { RegisterFinalStepComponent } from './modules/register/final-step/final-
 import { RegisterFirstStepComponent } from './modules/register/first-step/first-step.component';
 import { RegisterComponent } from './modules/register/register.component';
 import { RegisterSecondStepComponent } from './modules/register/second-step/second-step.component';
+import { ResetPasswordComponent } from './modules/reset-password/reset-password.component';
+import { AddCorporateComponent } from './modules/super-admin/add-corporate/add-corporate.component';
+import { SuperAdminComponent } from './modules/super-admin/super-admin.component';
 
 const routes: Routes = [
   {
     path: '',
+    redirectTo: 'login',
+    pathMatch: 'full',
+  },
+  {
+    path: 'login',
     component: LoginComponent,
   },
   {
@@ -33,6 +41,20 @@ const routes: Routes = [
   {
     path: 'forgot-password',
     component: ForgotPasswordComponent,
+  },
+  {
+    path: 'reset-password',
+    component: ResetPasswordComponent,
+  },
+  {
+    path: 'super-admin',
+    component: SuperAdminComponent,
+    children: [
+      {
+        path: 'add-corporate',
+        component: AddCorporateComponent,
+      },
+    ],
   },
 ];
 

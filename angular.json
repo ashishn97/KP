@@ -26,17 +26,10 @@
             "assets": ["src/favicon.ico", "src/assets"],
             "styles": [
               "src/styles.scss",
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "node_modules/font-awesome/css/font-awesome.css",
-              "src/assets/style/style.css",
-              "src/assets/style/demo.scss",
-              "src/assets/style/global.scss"
+              "src/assets/style/_alerts.scss",
+              "src/assets/style/_variables.scss"
             ],
-            "scripts": [
-              "node_modules/jquery/dist/jquery.js",
-              "node_modules/bootstrap/dist/js/bootstrap.js",
-              "node_modules/bootstrap-notify/bootstrap-notify.js"
-            ]
+            "scripts": ["node_modules/bootstrap-notify/bootstrap-notify.js"]
           },
           "configurations": {
             "production": {
@@ -96,17 +89,10 @@
             "assets": ["src/favicon.ico", "src/assets"],
             "styles": [
               "src/styles.scss",
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "node_modules/font-awesome/css/font-awesome.css",
-              "src/assets/style/style.css",
-              "src/assets/style/demo.scss",
-              "src/assets/style/global.scss"
+              "src/assets/style/_alerts.scss",
+              "src/assets/style/_variables.scss"
             ],
-            "scripts": [
-              "node_modules/jquery/dist/jquery.js",
-              "node_modules/bootstrap/dist/js/bootstrap.js",
-              "node_modules/bootstrap-notify/bootstrap-notify.js"
-            ]
+            "scripts": ["node_modules/bootstrap-notify/bootstrap-notify.js"]
           }
         },
         "lint": {

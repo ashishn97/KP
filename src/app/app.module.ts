@@ -19,6 +19,9 @@ import { BroadcastService } from './shared/service/MessageService';
 import { ValidationService } from './shared/service/validation.service';
 import { SharedService } from './shared/service/shared.service';
 import { XNotificationComponent } from './core/x-notification/x-notification.component';
+import { SuperAdminComponent } from './modules/super-admin/super-admin.component';
+import { AddCorporateComponent } from './modules/super-admin/add-corporate/add-corporate.component';
+import { ResetPasswordComponent } from './modules/reset-password/reset-password.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +33,9 @@ import { XNotificationComponent } from './core/x-notification/x-notification.com
     RegisterSecondStepComponent,
     RegisterFinalStepComponent,
     XNotificationComponent,
+    SuperAdminComponent,
+    AddCorporateComponent,
+    ResetPasswordComponent
   ],
   imports: [
     BrowserModule,
